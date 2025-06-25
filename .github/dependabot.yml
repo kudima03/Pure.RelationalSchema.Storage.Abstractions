@@ -2,8 +2,7 @@ version: 2
 updates:
 - package-ecosystem: nuget
   directories:
-    - "src/"
-    - "src/Tests/"
+    - "src/Pure.RelationalSchema.Storage.Abstractions"
   schedule:
     interval: daily
   reviewers:
