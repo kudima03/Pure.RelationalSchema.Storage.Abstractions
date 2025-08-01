@@ -1,11 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <PropertyGroup>
     <PackageId>Pure.RelationalSchema.Storage.Abstractions</PackageId>
     <RootNamespace>Pure.RelationalSchema.Storage.Abstractions</RootNamespace>
@@ -14,5 +12,4 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/kudima03/Pure.RelationalSchema.Storage.Abstractions</PackageProjectUrl>
   </PropertyGroup>
-
 </Project>
