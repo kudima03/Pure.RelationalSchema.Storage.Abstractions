@@ -1,6 +1,8 @@
+using Pure.RelationalSchema.Abstractions.Column;
+
 namespace Pure.RelationalSchema.Storage.Abstractions;
 
 public interface IRow
 {
-    IEnumerable<ICell> Cells { get; }
+    IDictionary<IColumn, ICell> Cells { get; }
 }
