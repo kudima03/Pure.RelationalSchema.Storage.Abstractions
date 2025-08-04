@@ -4,5 +4,5 @@ namespace Pure.RelationalSchema.Storage.Abstractions;
 
 public interface IRow
 {
-    IDictionary<IColumn, ICell> Cells { get; }
+    public IDictionary<IColumn, ICell> Cells { get; }
 }
