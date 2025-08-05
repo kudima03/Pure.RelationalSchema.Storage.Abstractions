@@ -1,6 +1,8 @@
+using Pure.Primitives.Abstractions.String;
+
 namespace Pure.RelationalSchema.Storage.Abstractions;
 
 public interface ICell
 {
-    string Value { get; }
+    IString Value { get; }
 }
