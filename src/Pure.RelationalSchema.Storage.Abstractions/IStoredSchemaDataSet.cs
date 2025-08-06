@@ -4,5 +4,5 @@ namespace Pure.RelationalSchema.Storage.Abstractions;
 
 public interface IStoredSchemaDataSet
 {
-    IDictionary<ITable, IStoredTableDataSet> TablesDatasets { get; }
+    IReadOnlyDictionary<ITable, IStoredTableDataSet> TablesDatasets { get; }
 }
