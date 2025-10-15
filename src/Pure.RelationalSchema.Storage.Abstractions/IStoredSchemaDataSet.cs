@@ -1,8 +1,9 @@
+using Pure.RelationalSchema.Abstractions.Schema;
 using Pure.RelationalSchema.Abstractions.Table;
 
 namespace Pure.RelationalSchema.Storage.Abstractions;
 
-public interface IStoredSchemaDataSet
+public interface IStoredSchemaDataSet : IReadOnlyDictionary<ITable, IStoredTableDataSet>
 {
-    IReadOnlyDictionary<ITable, IStoredTableDataSet> TablesDatasets { get; }
+    ISchema Schema { get; }
 }
