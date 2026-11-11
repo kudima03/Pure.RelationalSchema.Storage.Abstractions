@@ -36,7 +36,7 @@ exactly one interface.
 schema-description layer). This package sits above it, adding the data-access layer on top of
 those structural abstractions.
 
-**Multi-targeting:** net7.0, net8.0, net9.0, net10.0. All interfaces must remain AOT-compatible
+**Multi-targeting:** net7.0, net8.0, net9.0, net10.0, net11.0. All interfaces must remain AOT-compatible
 (`IsAotCompatible=true`).
 
 **Publishing:** triggered by pushing a semver tag (e.g. `1.0.0`). The tag name becomes the
