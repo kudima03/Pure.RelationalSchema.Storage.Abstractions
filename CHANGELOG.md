@@ -6,6 +6,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.4.2.0] — 2026-11-11
+
+### Added
+
+- Multi-targeting for `net11.0` (`net7.0` through `net10.0` kept).
+
+### Changed
+
+- Updated `Pure.RelationalSchema.Abstractions` to 1.3.0.
+- The package README is now packed into the NuGet package.
+
 ## [0.1.0-preview.4.1.0] — 2025-12-06
 
 ### Added
